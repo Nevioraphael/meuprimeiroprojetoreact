@@ -9,6 +9,10 @@ function App() {
         <p>
           Editando essa página <code>src/App.js</code> e salvando pra começar.
         </p>
+
+        <p>
+          Mais uma linha com texto.
+        </p>
         <a
           className="App-link"
           href="https://reactjs.org"
