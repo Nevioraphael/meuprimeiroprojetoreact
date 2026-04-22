@@ -1,27 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
+import MeuHeader from './componentes/MeuHeader';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Editando essa página <code>src/App.js</code> e salvando pra começar.
-        </p>
+    <div>
+      <MeuHeader></MeuHeader>
+      <main class="main">
+        <h1 class="heading">Encontre eventos em qualquer lugar.</h1>
+        <p class="text">Pesquise centenas de eventos. Adquira seus ingressos com segurança e tranquilidade.</p>
+        <form class="form">
+          <input type="text" class="input" placeholder="Digite aqui sua busca"></input>
+          <button class="btn">Buscar</button>
+        </form>
+      </main>
 
-        <p>
-          Mais uma linha com texto.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <footer class="footer">
+        <p class="copyright">&copy; 2026. Todos os direitos reservados</p>
+      </footer>
     </div>
   );
 }
